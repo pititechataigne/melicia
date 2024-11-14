@@ -1,0 +1,36 @@
+/*Ce fichier contient tous les liens vers les fichiers des différentes fonts variables*/
+@font-face {
+  font-family: 'OuvrièresGX';/*Ici on déclare le nom que l'on souhaite employer pour utiliser la typographie*/
+  src: url(../font/ouvrieres2/Ouvri%C3%A8resGX.woff2) format('woff2');/*ici on renseigne le lien et le format du fichier*/
+   /*
+  axes : 
+  "FRMT" : formation (100 - 900)
+   "wght" : taille des fourmies (100 - 900)
+  */
+}
+
+
+
+
+@font-face {
+  font-family: 'MovementV';
+  src: url(../font/movement/MovementV.woff2) format('woff2');
+   /*
+  axes : 
+  "SPAC" : arrondie (100 - 120)
+  "wght" : graisse (100 - 900)
+  */
+}
+
+
+
+
+
+@font-face {
+  font-family: 'mixal';
+  src: url(../font/mixal/MixalGX.woff2) format('woff2');
+  /*
+  axe : 
+  "wght" : graisse et largeur des caractères(100-900)
+  */
+}

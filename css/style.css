@@ -1,0 +1,1148 @@
+body{
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: rgb(0,0,0);
+  background-color: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(157,32,32,1) 51%, rgba(255,255,255,1) 100%);
+  cursor: url("../main\ sang.png");
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 1880px;
+  overflow-x: hidden;
+  height: 100vh;
+ 
+}
+	
+.couleurfond{
+  position: absolute;
+  width: 100% ;
+  height: 6000px;
+  top: 0px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(157,32,32,1) 51%, rgba(255,255,255,1) 100%); 
+  z-index: -1;
+  
+  }
+
+
+.movement{
+  font-family: 'MovementV';
+}
+
+ 
+
+.mixal{
+  font-family: 'mixal';
+}
+  
+h1{
+ font-size: 30px ;
+ left: 800px;
+ top: 400px;
+ text-align: center;
+
+}
+
+.bombastic{
+  font-size: 700px ;
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  text-align: center;
+}
+
+.war{
+  font-size: 700px ;
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  text-align: center;
+}
+  
+h2{
+  font-size: 200px;
+  color: brown;
+  font-variation-settings: "SPAC" 118, "wght" 200;
+  transform: rotate(10deg);
+  }
+
+.ratata1 {
+  font-variation-settings: "SPAC" 100, "wght" 100;
+  font-size: 111px;
+  position: relative;
+  color: black;
+  transform: rotate(65deg);
+  position: relative;
+  left: 174px;
+  top: 785px;
+
+  animation-name: ratata1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+ 
+} 
+  
+.ratata2 {
+  font-variation-settings: "SPAC" 100, "wght" 100;
+  font-size: 111px;
+  position: relative;
+  color: black;
+  transform: rotate(114deg);
+  position: relative;
+  left:  -115px;
+  top: 686px;
+
+  animation-name: ratata2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+ animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+ animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+ animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+ animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+ animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+ /*--------------------------------------------------------------------------------------------*/
+
+}
+
+.ahah1 {
+  opacity: 0,5;
+  mix-blend-mode:multiply;
+  position: relative;
+  left: -86px;
+  top: 475px;
+  font-variation-settings: "wght" 400;
+  transform: rotate(65deg);
+
+  animation-name: ahah1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+
+ }
+
+ .ahah2 {
+  opacity: 0,5;
+  mix-blend-mode:multiply;
+  position: relative;
+  left: 131px;
+  top: 275px;
+  font-variation-settings: "wght" 400;
+  transform: rotate(114deg);
+
+  animation-name: ahah2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+ }
+
+#BA{
+  font-variation-settings: "SPAC" 100, "wght" 100;
+  font-size: 250px;
+  position: absolute;
+  color: black;
+  left: -273px;
+  top: 3118px;
+  transform: rotate(0deg);
+  animation-name:BA ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 4s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  
+  /*--------------------------------------------------------------------------------------------*/
+ }
+
+
+#BOUM{
+  font-variation-settings: "SPAC" 100, "wght" 100;
+  font-size: 250px;
+  position: absolute;
+  color: black;
+  left: 1835px;
+  top: 2871px;
+  transform: rotate(0deg);
+  animation-name:BOUM ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 4s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+ 
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*TOUT CE QUI CONCERNE LE BIM*/
+
+
+#BIM{
+  font-size: 600px;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 600px;
+  top: 4700px;
+  font-variation-settings: "wght" 500;
+  transform: rotate(0deg);
+
+}
+.animationbim:hover #BIM{
+  animation-name: BIM;
+  animation-duration: 2s;
+  animation-iteration-count: 3s;
+
+}
+.animationbim{
+  width: 100%;
+  height: 5000px;
+  top: -610px;
+  position: relative;
+  
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/*TOUT les CRACS et CRICS en MIXAL*/
+
+ #crac1x{
+  color: rgb(235, 31, 31);
+  left: 546px;
+  top: 5179px;
+  position: absolute;
+ font-variation-settings: "wght"100;
+transform: rotate(61deg);
+ }
+
+ #crac2x{
+  color: rgb(235, 31, 31);
+  left: 778px;
+  top: 5183px;
+  position: absolute;
+  font-variation-settings: "wght"150;
+  transform: rotate(97deg);
+ }
+ 
+ #crac3x{
+  color: rgb(235, 31, 31);
+  left: 868px;
+  top: 5202px;
+  position: absolute;
+  font-variation-settings: "wght"125;
+  transform: rotate(-46deg);
+ }
+
+ 
+ #crac4x{
+  color: rgb(235, 31, 31);
+  left: 535px;
+  top: 5155px;
+  position: absolute;
+  font-variation-settings: "wght"100;
+  transform: rotate(106deg);
+  font-size: 330px;
+ }
+
+ #crac5x{
+  color: rgb(235, 31, 31);
+  left: 990px;
+  top: 5334px;
+  position: absolute;
+  font-variation-settings: "wght"166;
+  transform: rotate(148deg);
+  font-size: 105px;
+ }
+ 
+ #crac6x{
+  color: rgb(235, 31, 31);
+  left: 1322px;
+  top: 5190px;
+  position: absolute;
+  font-variation-settings: "wght"205;
+  transform: rotate(-300deg);
+  font-size: 141px;
+ }
+
+
+
+
+
+
+ #cric1x{
+  color: rgb(235, 31, 31);
+  left: 1037px;
+  top: 5157px;
+  position: absolute;
+ font-variation-settings: "wght"100;
+ transform: rotate(-64deg);
+ }
+
+ #cric2x{
+  color: rgb(235, 31, 31);
+  left: 1149px;
+  top: 5153px;
+  position: absolute;
+  font-variation-settings: "wght"120;
+  transform: rotate(84deg);
+  font-size: 141px;
+ }
+ 
+ #cric3x{
+  color: rgb(235, 31, 31);
+  left: 698px;
+  top: 5165px;
+  position: absolute;
+  font-variation-settings: "wght"150;
+  transform: rotate(-102deg);
+  font-size: 141px;
+ }
+
+ #cric4x{
+  color: rgb(235, 31, 31);
+  left: 1185px;
+  top: 5162px;
+  position: absolute;
+  font-variation-settings: "wght"109;
+  transform: rotate(-86deg);
+  font-size: 346px;
+ }
+
+ #cric5x{
+  color: rgb(235, 31, 31);
+  left: 1149px;
+  top: 5153px;
+  position: absolute;
+  font-variation-settings: "wght"120;
+  transform: rotate(84deg);
+  font-size: 141px;
+ }
+ 
+ #cric6x{
+  color: rgb(235, 31, 31);
+  left: 698px;
+  top: 5165px;
+  position: absolute;
+  font-variation-settings: "wght"150;
+  transform: rotate(-102deg);
+  font-size: 141px;
+ }
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+/*TOUT les CRACS et CRICS en MOVEMENT*/
+
+ 
+ #crac1o{
+  color: rgb(235, 31, 31);
+  left: 509px;
+  top: 5270px;
+  position: absolute;
+  font-variation-settings: "wght"100, "SPAC"110;
+  transform: rotate(230deg);
+  font-size: 70px;
+ }
+
+ #crac2o{
+  color: rgb(235, 31, 31);
+  left: 654px;
+  top: 5263px;
+  position: absolute;
+  font-variation-settings: "wght"150,"SPAC"100;
+  transform: rotate(419deg);
+  font-size: 95px;
+ }
+ 
+ #crac3o{
+  color: rgb(235, 31, 31);
+  left: 868px;
+  top: 5202px;
+  position: absolute;
+  font-variation-settings: "wght"170,"SPAC"120;
+  transform: rotate(-35deg);
+  font-size: 80px;
+ }
+
+ #crac4o{
+  color: rgb(235, 31, 31);
+  left: 913px;
+  top: 5302px;
+  position: absolute;
+  font-variation-settings: "wght"241, "SPAC"100;
+  transform: rotate(192deg);
+  font-size: 137px;
+ }
+
+ #crac5o{
+  color: rgb(235, 31, 31);
+  left: 1100px;
+  top: 5263px;
+  position: absolute;
+  font-variation-settings: "wght"150,"SPAC"100;
+  transform: rotate(419deg);
+  font-size: 95px;
+ }
+ 
+ #crac6o{
+  color: rgb(235, 31, 31);
+  left: 370px;
+  top: 5202px;
+  position: absolute;
+  font-variation-settings: "wght"170,"SPAC"100;
+  transform: rotate(-15deg);
+  font-size: 80px;
+ }
+
+
+
+
+ #cric1o{
+  color: rgb(235, 31, 31);
+  left: 1020px;
+  top: 5270px;
+  position: absolute;
+  font-variation-settings: "wght"500, "SPAC"110;
+  transform: rotate(407deg);
+  font-size: 70px;
+ }
+
+ #cric2o{
+  color: rgb(235, 31, 31);
+  left: 696px;
+  top: 5304px;
+  position: absolute;
+  font-variation-settings: "wght"428,"SPAC"100;
+  transform: rotate(366deg);
+  font-size: 114px;
+ }
+ 
+ #cric3o{
+  color: rgb(235, 31, 31);
+  left: 1203px;
+  top: 5202px;
+  position: absolute;
+  font-variation-settings: "wght"170,"SPAC"120;
+  transform: rotate(-35deg);
+  font-size: 80px;
+ }
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+/*EXPLOSIONS DE AH et ARGH*/
+/*coté gauche*/
+
+#ahh1x{
+  color: rgb(235, 31, 31);
+  left: -87px;
+  top: 1663px;  
+  position: absolute;
+  font-variation-settings: "wght"500;
+  transform: rotate(407deg);
+  font-size: 70px;
+
+  animation-name: ahh1x; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes ahh1x { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: -87px;
+  top: 1663px;  
+  opacity:1;
+  transform: rotate(178deg)
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 75px;
+  top: 1840px;
+  opacity:1;
+  transform: rotate(263deg);
+}
+
+30%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 121px;
+  top: 1809px;
+  opacity:1;
+  transform: rotate(156deg);
+}
+  
+60%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 159px;
+  top: 1762px;
+  opacity:0.5;
+  transform: rotate(48deg);
+}
+
+80%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 187px;
+  top: 1822px;
+  opacity:0.3;
+  transform: rotate(-71deg);
+}
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 246px;
+  top: 1887px;
+  opacity:0;
+  transform: rotate(-166deg);
+    }
+
+}
+
+
+
+#argh2o{
+  color: rgb(235, 31, 31);
+  left:-119px;
+  top: 1663px;  
+  position: absolute;
+  font-variation-settings: "wght"500, "SPAC" 110;
+  transform: rotate(407deg);
+  font-size: 52px;
+
+  animation-name: argh2o; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes argh2o { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: -87px;
+  top: 1663px;  
+  opacity:0.5;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 34px;
+  top: 1732px;
+  opacity:1;
+  transform: rotate(499deg);
+}
+
+20%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 76px;
+  top: 1600px;
+  opacity:1;
+  transform: rotate(193deg);
+}
+  
+40%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 255px;
+  top: 1652px;
+  opacity:1;
+  transform: rotate(deg);
+}
+
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 322px;
+  top: 1548px;
+  opacity:0.5;
+  transform: rotate(17deg);
+}
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 406px;
+  top: 1472px;
+  opacity:0;
+  transform: rotate(-153deg);
+    }
+
+}
+
+
+#ahh3x{
+  color: rgb(235, 31, 31);
+  left:-87px;
+  top: 1663px;  
+  position: absolute;
+  font-variation-settings: "wght"500;
+  transform: rotate(407deg);
+  font-size: 70px;
+
+  animation-name: ahh3x; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+
+}
+
+@keyframes ahh3x { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: -87px;
+  top: 1663px;  
+  opacity:0.5;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 17px;
+  top: 1646px;
+  opacity:1;
+  transform: rotate(297deg);
+}
+
+20%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 47px;
+  top: 1593px;
+  opacity:1;
+  transform: rotate(102deg);
+}
+  
+40%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 82px;
+  top: 1556px;
+  opacity:1;
+  transform: rotate(-1deg);
+}
+
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 45px;
+  top: 1502px;
+  opacity:0.5;
+  transform: rotate(-166deg);
+}
+
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 11px;
+  top: 1452px;
+  opacity:0;
+  transform: rotate(-321deg);
+    }
+
+  }
+
+
+
+
+/*coté droit*/
+
+#argh1o{
+  color: rgb(235, 31, 31);
+  left: 1840px;
+  top: 1706px;  
+  position: absolute;
+  font-variation-settings: "wght"500, "SPAC" 110;
+  transform: rotate(407deg);
+  font-size: 52px;
+
+  animation-name: argh1o; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2.5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+
+@keyframes argh1o { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: 1840px;
+  top: 1706px;  
+  opacity:0.5;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1716px;
+  top: 1752px;
+  opacity:1;
+  transform: rotate(304deg);
+}
+
+20%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1628px;
+  top: 1842px;
+  opacity:1;
+  transform: rotate(186deg);
+}
+  
+40%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1575px;
+  top: 1915px;
+  opacity:1;
+  transform: rotate(83deg);
+}
+
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1531px;
+  top: 1926px;
+  opacity:0.5;
+  transform: rotate(-32deg);
+}
+
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 1509px;
+  top: 1956px;
+  opacity:0;
+  transform: rotate(-122deg);
+    }
+
+  }
+
+
+
+
+
+
+#ahh2x{
+  color: rgb(56, 5, 5);
+  left: 1840px;
+  top: 1663px;
+  position: absolute;
+  font-variation-settings: "wght"500;
+  transform: rotate(407deg);
+  font-size: 52px;
+  
+  animation-name: ahh2x; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2.5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes ahh2x { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: 1840px;
+  top: 1706px;  
+  opacity:0.5;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1732px;
+  top: 1713px;
+  opacity:1;
+  transform: rotate(490deg);
+}
+
+18%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1681px;
+  top: 1689px;
+  opacity:1;
+  transform: rotate(598deg);
+}
+  
+30%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1607px;
+  top: 1665px;
+  opacity:1;
+  transform: rotate(676deg);
+}
+
+65%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1492px;
+  top: 1649px;
+  opacity:0.5;
+  transform: rotate(778deg);
+}
+
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 1364px;
+  top: 1620px;
+  opacity:0;
+  transform: rotate(953deg);
+    }
+
+  }
+
+
+#argh3o{
+  color: rgb(235, 31, 31);
+  left: 1840px;
+  top: 1706px;  
+  position: absolute;
+  font-variation-settings: "wght"500, "SPAC" 110;
+  transform: rotate(407deg);
+  font-size: 52px;
+
+  animation-name: argh3o; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 1s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: normal;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes argh3o { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(43, 43, 43);
+  font-variation-settings:"wght"500;
+  left: 1840px;
+  top: 1706px;  
+  opacity:0.5;
+}
+
+10%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1756px;
+  top: 1734px;
+  opacity:1;
+  transform: rotate(461deg);
+}
+
+20%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(73, 33, 33);
+  font-variation-settings:"wght"500;
+  left: 1716px;
+  top: 1635px;
+  opacity:1;
+  transform: rotate(580deg);
+}
+  
+40%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1651px;
+  top: 1569px;
+  opacity:1;
+  transform: rotate(699deg);
+}
+
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(167, 25, 25);
+  font-variation-settings:"wght"500;
+  left: 1591px;
+  top: 1495px;
+  opacity:0.5;
+  transform: rotate(803deg);
+}
+
+
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(53, 51, 51); 
+  font-variation-settings:"wght"500;
+  left: 1541px;
+  top: 1394px;
+  opacity:0;
+  transform: rotate(915deg);
+    }
+
+  }
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*TOUTES LES ANIMATIONS*/
+
+@keyframes BIM { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(255, 255, 255);
+  font-variation-settings:"wght"500;
+  left: 600px;
+  top: 100px;
+  opacity:0;
+}
+  
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(255, 255, 255); 
+  font-variation-settings:"wght"500;
+  left: 600px;
+  top: 4700px;
+  opacity:1;
+    }
+
+}
+
+
+
+
+@keyframes BA { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(0, 0, 0);
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left: -273px;
+  top: 3710px;
+  font-size: 250px;
+}
+60%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(27, 3, 3);
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left: 300px;
+  top: 3710px;
+
+}
+70%{/*ici on renseigne la valeur de fin*/
+color: rgb(87, 7, 7); 
+font-variation-settings:"SPAC" 100, "wght"110;
+left: 300px;
+top: 3710px;
+}
+
+80%{/*ici on renseigne la valeur de fin*/
+  color: rgb(121, 18, 18); 
+  font-variation-settings:"SPAC" 100, "wght"200;
+  left: 300px;
+  top: 3710px;
+}
+  
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(206, 26, 26); 
+  font-variation-settings:"SPAC" 100, "wght"500;
+  left: 300px;
+  top: 3710px;
+  font-size: 350px;
+    }
+
+}
+
+@keyframes BOUM { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(0, 0, 0);
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left: 1835px;
+  top: 3710px;
+  font-size: 250px;
+}
+60%{ /*ici on renseigne la valeur de départ*/
+  color :rgb(27, 3, 3);
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left: 750px;
+  top: 3710px;
+
+}
+70%{/*ici on renseigne la valeur de fin*/
+color: rgb(87, 7, 7); 
+font-variation-settings:"SPAC" 100, "wght"110;
+left: 750px;
+top: 3710px;
+}
+
+80%{/*ici on renseigne la valeur de fin*/
+  color: rgb(121, 18, 18); 
+  font-variation-settings:"SPAC" 100, "wght"200;
+  left: 750px;
+  top: 3710px;
+}
+  
+100%{/*ici on renseigne la valeur de fin*/
+  color: rgb(206, 26, 26); 
+  font-variation-settings:"SPAC" 100, "wght"500;
+  left: 750px;
+  top: 3710px;
+  font-size: 350px;
+    }
+
+}
+
+
+
+
+ @keyframes ratata1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color : gray;
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left:  174px;
+  top: 785px;
+
+}
+50%{ /*ici on renseigne la valeur de départ*/
+  color : gray;
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left:  174px;
+  top: 785px;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+color: rgb(34, 25, 25); 
+font-variation-settings:"SPAC" 120, "wght"700;
+left: 1200px;
+top: 2099px;
+}
+}
+
+@keyframes ratata2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+
+0%{ /*ici on renseigne la valeur de départ*/
+    color : gray;
+    font-variation-settings:"SPAC" 100, "wght"100;
+    left:  -115px;
+    top: 686px;
+  
+  }
+50%{ /*ici on renseigne la valeur de départ*/
+  color : gray;
+  font-variation-settings:"SPAC" 100, "wght"100;
+  left:  -115px;
+  top: 686px;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+color: rgb(34, 25, 25); 
+font-variation-settings:"SPAC" 120, "wght"700;
+left:  -1200px;
+top: 2000px;
+
+}
+}
+
+
+
+@keyframes ahah1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(122, 0, 0);
+  font-variation-settings: "wght" 400;
+  left: -86px ;
+  top: 475px;
+
+}
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(122, 0, 0);
+  font-variation-settings: "wght" 400;
+  left: -86px ;
+  top: 475px;
+
+}
+100%{/*ici on renseigne la valeur de fin*/
+color: rgb(122, 0, 0); 
+font-variation-settings: "wght" 400;
+left: 906px;
+top: 3314px;
+
+}
+}
+
+
+@keyframes ahah2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(122, 0, 0);
+  font-variation-settings: "wght" 400;
+  left: 131px;
+  top: 275px;
+}
+70%{ /*ici on renseigne la valeur de départ*/
+  color : rgb(122, 0, 0);
+  font-variation-settings: "wght" 400;
+  left: 131px;
+  top: 275px;
+}
+100%{/*ici on renseigne la valeur de fin*/
+color: rgb(122, 0, 0); 
+font-variation-settings: "wght" 400;
+left: -926px;
+top: 3107px;
+
+}
+}
